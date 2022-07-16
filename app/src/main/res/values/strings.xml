@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SidereaJv</string>
+    <string name="test">Test</string>
+    <string name="stars">Stars</string>
+    <string name="learn">Learn</string>
+    <string name="declination">Склонение</string>
+    <string name="ascent">Прямое восхождение</string>
+    <string name="polusharie">Расположение</string>
+    <string name="north_hemisphere">Северное полушарие</string>
+    <string name="south_hemisphere">Южное полушарие</string>
+    <string name="random_cons">20 случайных созвездий</string>
+    <string name="info_test">Здесь Вы можете пройти тест на время, который покажет на сколько хорошо Вы знаете созвездия</string>
+    <string name="alpha">Альфа созвездия</string>
+    <string name="end">Завершить</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="true_answer">Правильный ответ:</string>
+    <string name="your_answer">Ваш ответ:</string>
+    <string name="learn_text">Здесь Вы можете пройти обучение, которое поможет Вам запомнить созвездия</string>
+</resources>

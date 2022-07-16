@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/stars">
+
+    <fragment
+        android:id="@+id/test"
+        android:label="test"
+        android:name="ru.tanec.sidereaJv.fragments.TestFragment" />
+
+    <fragment
+        android:id="@+id/stars"
+        android:label="stars"
+        android:name="ru.tanec.sidereaJv.fragments.StarsFragment"/>
+
+    <fragment
+        android:id="@+id/learn"
+        android:label="learn"
+        android:name="ru.tanec.sidereaJv.fragments.LearnFragment"/>
+
+    <fragment
+        android:id="@+id/constellation_fragment"
+        android:label="cons"
+        android:name="ru.tanec.sidereaJv.fragments.ConViewFragment"
+        tools:layout="@layout/fragment_con_view"/>
+
+    <fragment
+        android:id="@+id/contest"
+        android:label="contest"
+        android:name="ru.tanec.sidereaJv.fragments.ContestFragment"/>
+
+    <fragment
+        android:id="@+id/result"
+        android:label="contest"
+        android:name="ru.tanec.sidereaJv.fragments.ResultFragment"/>
+
+</navigation>
