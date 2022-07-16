@@ -90,7 +90,7 @@ public class TestInfoAdapter extends RecyclerView.Adapter<TestInfoAdapter.TestIn
 
             card.setOnClickListener(l->{
                 adpt.selectedItem(c);
-                FragmentController.currentId.setValue(Integer.parseInt((String) number.getText()));
+                FragmentController.currentId.setValue(Integer.parseInt((String) number.getText()) - 1);
             });
 
 
@@ -119,7 +119,7 @@ public class TestInfoAdapter extends RecyclerView.Adapter<TestInfoAdapter.TestIn
             int finalPos = pos;
             card.setOnClickListener(l->{
                 adpt.selectedItem(finalPos);
-                FragmentController.currentId.setValue(Integer.parseInt((String) number.getText()));
+                FragmentController.currentId.setValue(Integer.parseInt((String) number.getText()) - 1);
             });
 
 

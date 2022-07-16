@@ -90,22 +90,22 @@ public class ContestFragment extends Fragment {
         prev = view.findViewById(R.id.prev_btn);
 
         next.setOnClickListener(l->{
-            if (id < 19) {
+            if (id < questions.size() - 1) {
                 bind(id + 1);
             } else {
                 bind(0);
             }
             recycler.scrollToPosition(id);
-            adapter.selectedItem(id);
+            adapter.selectedItem(id + 1);
         });
         prev.setOnClickListener(l->{
             if (id > 0) {
                 bind(id - 1);
             } else {
-                bind(19);
+                bind(questions.size() - 1);
             }
             recycler.scrollToPosition(id);
-            adapter.selectedItem(id);
+            adapter.selectedItem(id + 1);
         });
 
         send.setOnClickListener(l->{
@@ -134,7 +134,7 @@ public class ContestFragment extends Fragment {
 
         recycler.setAdapter(adapter);
 
-        bind(0);
+        bind(1);
 
         FragmentController.currentId.observe(requireActivity(), this::bind);
 
